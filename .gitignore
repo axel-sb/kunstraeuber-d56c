@@ -25,5 +25,5 @@ node_modules
 # generated files
 /app/components/ui/icons
 
-# vsc extensions
+# extensions
 .history
