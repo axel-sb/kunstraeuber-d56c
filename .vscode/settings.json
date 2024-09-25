@@ -13,15 +13,15 @@
 	],
 	"workbench.editorAssociations": {
 		"*.db": "sqlite-viewer.view"
-  },
-  "workbench.colorCustomizations": {
-    "commandCenter.border": "#15202b99",
-    "sash.hoverBorder": "#e09cc7",
-    "tab.activeBorder": "#e09cc7",
-    "titleBar.activeBackground": "#e09cc7",
-    "titleBar.activeForeground": "#15202b",
-    "titleBar.inactiveBackground": "#e09cc799",
-    "titleBar.inactiveForeground": "#15202b99"
-  },
-  "peacock.color": "#e09cc7"
+	},
+	"workbench.colorCustomizations": {
+		"commandCenter.border": "#15202b99",
+		"sash.hoverBorder": "#e09cc7",
+		"tab.activeBorder": "#e09cc7",
+		"titleBar.activeBackground": "#e09cc7",
+		"titleBar.activeForeground": "#15202b",
+		"titleBar.inactiveBackground": "#e09cc799",
+		"titleBar.inactiveForeground": "#15202b99"
+	},
+	"peacock.color": "#e09cc7"
 }
