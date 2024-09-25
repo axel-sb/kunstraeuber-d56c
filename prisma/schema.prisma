@@ -167,3 +167,36 @@ model Connection {
 
   @@unique([providerName, providerId])
 }
+
+model Artwork {
+  id                    Int      @id @default(autoincrement())
+  title                 String?
+  artist_display        String?
+  artist_title          String?
+  date_end              Int?
+  date_display          String?
+  place_of_origin       String?
+  medium_display        String?
+  provenance_text       String?
+  dimensions            String?
+  description           String?
+  biography             String?
+  artwork_type_title    String?
+  category_titles       String?
+  term_titles           String?
+  style_titles          String?
+  subject_titles        String?
+  classification_titles String?
+  technique_titles      String?
+  width                 Int?
+  height                Int?
+  color_h               Int?
+  color_s               Int?
+  color_l               Int?
+  colorHsl              String?
+  image_url             String?
+  alt_text              String?
+  favorite              Boolean?
+  weight                Int?
+  tags                  String?
+}
