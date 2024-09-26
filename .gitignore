@@ -26,6 +26,7 @@ node_modules
 /app/components/ui/icons
 
 # extensions
-.history
+/.history
+.history/
 # Sentry Config File
 .env.sentry-build-plugin

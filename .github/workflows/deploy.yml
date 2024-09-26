@@ -4,7 +4,11 @@ on:
     branches:
       - main
       - dev
-  pull_request: {}
+    paths-ignore:
+      - '.history/**'
+  pull_request:
+    paths-ignore:
+      - '.history/**'
 
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
